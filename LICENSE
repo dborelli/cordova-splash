@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2014 Alex Disler
+Original cordova-splash code Copyright (c) 2014 Alex Disler
+Modifications to cordova-taco-splash made by Danato Borelli Copyright (c) 2016 Taco Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

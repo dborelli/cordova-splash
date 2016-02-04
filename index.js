@@ -1,3 +1,11 @@
+/*
+
+Customized by Danato Borelli, Taco Inc.
+Based on cordova-splash
+https://github.com/AlexDisler/cordova-splash
+
+*/
+
 var fs     = require('fs');
 var xml2js = require('xml2js');
 var ig     = require('imagemagick');
@@ -18,7 +26,10 @@ var getPlatforms = function (projectName) {
         name : 'ios',
         // TODO: use async fs.exists
         isAdded : fs.existsSync('platforms/ios'),
-        splashPath : 'platforms/ios/' + projectName + '/Resources/splash/',
+        
+        //original, removed by DB
+        //splashPath : 'platforms/ios/' + projectName + '/Resources/splash/',
+        splashPath : 'platforms/ios/' + projectName + '/Images.xcassets/LaunchImage.launchimage/',
         splash : [
             { name : 'Default-568h@2x~iphone.png',    width : 640,  height : 1136 },
             { name : 'Default-667h.png',              width : 750,  height : 1334 },
